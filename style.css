@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,li,menu {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* FINE REGOLE RESET  */
+
+header {
+    background-color: #2E3A46;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 56px;
+    padding: 10px;
+}
+
+/* Fine Header  */
+
+/* Inizio Main  */
+
+main {
+    background-color: #1E2D3B;
+    min-height: 800px; 
+}
+
+.container {
+    color: white;
+    width: 1200px;
+    margin: auto;
+    flex: 20px;
+}
+
+.container_album {
+    gap: 20px;
+    padding-top: 75px;
+}
+
+.cover_album {
+    aspect-ratio: 1/1;
+    width: 200px;
+}
